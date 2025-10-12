@@ -8,9 +8,10 @@
 
 public class Exercicio3 {
     public static void main(String[] args) {
-        double valor = 9.78;
-        int convertido = (int) valor;  //Estudar isso, não entendi!
-        System.out.println("Valor original é " + valor);
-        System.out.println("Valor convertido é " + convertido);
+        double numero = 9.78d;
+        int resultado = (int) numero;
+
+        System.out.println("Valor original: " + numero);
+        System.out.println("Valor convertido: " + resultado);
     }
 }

@@ -6,4 +6,16 @@
  */
 
 public class Exercicio5 {
+    public static void main(String[] args) {
+        int x = 5;
+        int y = 9;
+
+        if (x>y){
+            System.out.println("X é maior que Y!");
+        } else if (x==y){
+            System.out.println("X é igual a Y!");
+        } else {
+            System.out.println("X é menor que Y!");
+        }
+    }
 }

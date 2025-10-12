@@ -6,4 +6,14 @@
  */
 
 public class Exercicio4 {
+    public static void main(String[] args) {
+        int x = 5;
+        int y = 10;
+
+        System.out.println("Adição = " + (x+y));
+        System.out.println("Subtração = " + (x-y));
+        System.out.println("Multiplicação = " + (x*y));
+        System.out.println("Divisão = " + (x/y));
+        System.out.println("Módulo = " + (x%y));
+    }
 }
